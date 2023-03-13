@@ -1,8 +1,10 @@
 steps:
-  - label: "pass"
-    commands: "true"
+  - group: "a group"
+    steps:
+      - label: "pass"
+        commands: "true"
 
-  - label: "fail"
-    commands: "false"
-    soft_fail: "true"
+      - label: "fail"
+        commands: "false"
+        soft_fail: "true"
 
