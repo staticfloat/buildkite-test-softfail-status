@@ -1,0 +1,7 @@
+steps:
+  - label: "pass"
+    commands: "true"
+
+  - label: "fail"
+    commands: "false"
+    soft_fail: "true"
