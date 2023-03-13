@@ -1,5 +1,8 @@
 steps:
   - group: "a group"
+    notify:
+      - github_commit_status:
+          context: "custom-context"
     steps:
       - label: "pass"
         commands: "true"
